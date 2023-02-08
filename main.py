@@ -28,8 +28,9 @@ def find_mismatch(text):
     return "Success"
 
 def main():
-    text = input()
-    if "I" in text:
+    parbaude = input()
+    if parbaude == "I":
+        text = input()
         mismatch = find_mismatch(text)
     # Printing answer, write your code here
         print(mismatch)
