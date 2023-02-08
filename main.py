@@ -28,10 +28,12 @@ def find_mismatch(text):
     return "Success"
 
 def main():
-    text = input()
-    mismatch = find_mismatch(text)
+    parbaude = input()
+    if parbaude == "I":
+        text = input()
+        mismatch = find_mismatch(text)
     # Printing answer, write your code here
-    print(mismatch)
+        print(mismatch)
 
 if __name__ == "__main__":
     main()
